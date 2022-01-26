@@ -382,7 +382,7 @@ ul .edu{
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('images/personal/personal-bg.jpg');
+	background-image: url('images/personal/latest.gif');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;
@@ -2629,6 +2629,23 @@ ul .edu{
 	font-size:15px;
 	color: #fff;
 }
+.title a {
+    color: #555555;
+}
+.single-image img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.single-service {
+    min-height: 265px;
+}
+/*#portfolio .portfolio-single {
+    min-height: 338px !important;
+}
+.mix {
+    position: relative !important;
+}*/
 /*=======================
   End Footer
 =========================*/
